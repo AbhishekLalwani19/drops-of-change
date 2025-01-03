@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-import Aboutus from './pages/aboutus'
+import "./App.css";
+import Aboutus from "./pages/aboutus";
+import { Header } from "./components/header";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-     <Aboutus></Aboutus>
+      <header>
+        <Header/>
+      </header>
+
+      <Aboutus />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
