@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@keyframes example {
+    0%{background-color: red;}
+    100%{background-color: yellow;}
+  }
+.herosetion{
+    height: 60vh;
+    width: 97vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 3%;
+    background-color: rgba(247, 232, 213, 0.533);
+}
+.herosetionPart1{
+    height: 100%;
+    width: 55%;
+}
+.herosetionPart2{
+    object-fit: cover;
+}
+.herosetionPart2 img{
+    height: 100%;
+    width: 113%;
+    border-radius: 12px;
+    box-shadow: 0 0 17px rgb(65, 28, 28);
+}
+.herosetionTagline{
+    min-height: 20vh;
+    margin-left: 2%;
+    font-family:'Lucida Sans', 'Lucida Saamns Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(95, 18, 18);
+    font-size: 2rem;
+    text-align: center;
+}
+.herosetionTagline h1{
+    font-weight: 1200;
+}
+.herosetionDescription{
+    margin-left: 2%;
+}
+.herosetionDescription h3{
+    font-size: 2rem;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+}
+.herosetion .btn1{
+    height: 50px;
+    width: 120px;
+    border: 1px solid transparent;
+    background-color: #F56A01;
+    margin-top: 2%;
+    border-radius: 7px;
+    font-family: 2rem;
+    box-shadow: 0 0 14px rgb(93, 91, 91);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
