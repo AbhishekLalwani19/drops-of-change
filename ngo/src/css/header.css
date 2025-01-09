@@ -1,0 +1,26 @@
+#first-box{
+    background-color: rgb(132, 219, 1);
+    border-radius: 20px 0px 20px 0px;
+    padding: 13px;
+}
+#contact-email{
+    text-decoration: none;
+    margin-right: 30px;
+    color: whitesmoke;
+}
+#contact-number{
+    margin-right: 600px;
+    color: whitesmoke;
+}
+#contact-email-a, #contact-number-a{
+    text-decoration: none;
+}
+#facebook-btn, #twitter-btn, #insta-btn, #text-btn{
+    border: none;
+    background-color: rgb(132, 219, 1);
+    margin-right: 40px;
+}
+#secondary-box{
+     background-color: #F56A01;
+}
+
