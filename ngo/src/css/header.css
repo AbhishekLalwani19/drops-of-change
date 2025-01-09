@@ -22,5 +22,28 @@
 }
 #secondary-box{
      background-color: #F56A01;
+     display: flex;
+     padding-top: 15px;
+     padding-bottom: 15px;
 }
+#home-btn-home, #about-btn-home, #blogs-btn-home, #contact-btn-home, #gallary-btn-home, #support-btn-home{
+    background: none;
+    padding: 10px;
+    border: none;
+    margin-left:110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+#donate-btn-home{
+    margin-left: 60px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 0.7em;
+    /* border-color:#000000; */
+    border: none;
+    background-color: #000000;
+    color: white;
+    /* box-shadow: rgb(51, 49, 49) 3px 6px 9px 1px; */
+}   
 

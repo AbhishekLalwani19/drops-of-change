@@ -101,13 +101,13 @@ export const Header = () => {
       {/* secondary box for information of website headder */}
       <div id="secondary-box">
         <div id="NGO-img"></div>
-        <div id="Home">HOME</div>
-        <div id="About"></div>
-        <div id="Blogs"></div>
-        <div id="Contact-us"></div>
-        <div id="Gallary"></div>
-        <div id="Support us"></div>
-        <div id="Donate-btn-box"></div>
+        <div id="Home"><button id="home-btn-home">HOME</button></div>
+        <div id="About"><button id="about-btn-home">ABOUT</button></div>
+        <div id="Blogs"><button id="blogs-btn-home">BLOGS</button></div>
+        <div id="Contact-us"><button id="contact-btn-home">CONTACT US</button></div>
+        <div id="Gallary"><button id="gallary-btn-home">GALLARY</button></div>
+        <div id="Support us"><button id="support-btn-home">SUPPORT US</button></div>
+        <div id="Donate-btn-box"><button id="donate-btn-home">DONATE</button></div>
       </div>
     </>
   );
