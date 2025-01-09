@@ -39,6 +39,7 @@
 .herosetionPart2 img {
     height: 100%;
     width: 113%;
+    margin-left: 1%;
     border-radius: 12px;
     box-shadow: 0 0 17px rgb(65, 28, 28);
 }

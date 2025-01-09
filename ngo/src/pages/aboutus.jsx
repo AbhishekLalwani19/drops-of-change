@@ -30,9 +30,7 @@ return(
                 <h1>{herosetionData.length==0?("hi"):herosetionData[0].tagline}</h1>
             </div>
             <div className="herosetionDescription">
-                <h3>
-                This tagline reflects the essence of creating meaningful impact through small, consistent efforts that lead to transformative changes in society.
-                </h3>
+                <h3>{herosetionData.length==0?("hi"):herosetionData[1].tagline_description}</h3>
                 <button className='btn1'>Join With us</button>
             </div>
         </div>
@@ -40,6 +38,9 @@ return(
             <img src="https://dropsofchange.in/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-12-at-14.54.33.jpg" alt="" />
         </div>
     </div>
+    <section>
+        
+    </section>
     </>
 )
 }
