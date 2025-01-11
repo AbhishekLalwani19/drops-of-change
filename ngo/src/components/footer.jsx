@@ -1,7 +1,7 @@
-import React from 'react'
-import "../css/footer.css"
+import React from 'react';
+import "../css/footer.css";
 
-export const ABCD = ()=>{
+export const Footer = ()=>{
     return(
         <>
         {/* this is the upper part of the footer which will stay contant in every website  */}

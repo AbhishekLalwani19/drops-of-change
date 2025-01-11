@@ -1,6 +1,7 @@
 import "./App.css";
 import Aboutus from "./pages/aboutus";
 import { Header } from "./components/header";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
       </header>
 
       <Aboutus />
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
