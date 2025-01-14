@@ -11,7 +11,6 @@ function App() {
       </header>
 
       <Aboutus />
-
       <footer>
         <Footer />
       </footer>
